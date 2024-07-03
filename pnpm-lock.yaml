@@ -18,8 +18,8 @@ importers:
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5
       '@tauri-apps/plugin-clipboard-manager':
-        specifier: 2.1.0-beta.3
-        version: 2.1.0-beta.3
+        specifier: 2.1.0-beta.4
+        version: 2.1.0-beta.4
       '@tauri-apps/plugin-dialog':
         specifier: 2.0.0-beta.5
         version: 2.0.0-beta.5
@@ -302,6 +302,10 @@ packages:
     resolution: {integrity: sha512-Np1opKANzRMF3lgJ9gDquBCB9SxlE2lRmNpVx1+L6RyzAmigkuh0ZulT5jMnDA3JLsuSDU135r/s4t/Pmx4atg==}
     engines: {node: '>= 18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
 
+  '@tauri-apps/api@2.0.0-beta.14':
+    resolution: {integrity: sha512-YLYgHqdwWswr4Y70+hRzaLD6kLIUgHhE3shLXNquPiTaQ9+cX3Q2dB0AFfqsua6NXYFNe7LfkmMzaqEzqv3yQg==}
+    engines: {node: '>= 18.18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+
   '@tauri-apps/cli-darwin-arm64@2.0.0-beta.20':
     resolution: {integrity: sha512-oCJOCib7GuYkwkBXx+ekamR8NZZU+2i3MLP+DHpDxK5gS2uhCE+CBkamJkNt6y1x6xdVnwyqZOm5RvN4SRtyIA==}
     engines: {node: '>= 10'}
@@ -373,8 +377,8 @@ packages:
   '@tauri-apps/plugin-cli@2.0.0-beta.5':
     resolution: {integrity: sha512-Gm7GrczwjF9xHBtlBhzihElfE7h41gglYctOzDf3OvKMyaifucnFsr15fEoji0+IxazGQLWdXlr2d5CSd062/w==}
 
-  '@tauri-apps/plugin-clipboard-manager@2.1.0-beta.3':
-    resolution: {integrity: sha512-j48jTdZWeX5BylIGLYbXtg6ynZAcFKDKK6dguHAbG3zviqNE/XMf2vHOPJeFDZsDE5kVOZZS7nKOj7T2WiCpvw==}
+  '@tauri-apps/plugin-clipboard-manager@2.1.0-beta.4':
+    resolution: {integrity: sha512-iu44K+WmNCbU3l8/sdQq6e0ZE8Uv/HKAj7J68K4Cx0RhOvX+mnjHWAX/A/ok5C4/OCAuYdEvWmi4+Lsdld+njQ==}
 
   '@tauri-apps/plugin-dialog@2.0.0-beta.5':
     resolution: {integrity: sha512-jkaBCsx2v6WB6sB77fTMCeijuvT3FlzwschiHnPlD7aU6CHvQgRlpCv/FttPdTq4ih2t6MIlM4oX85hNYgfs6w==}
@@ -845,6 +849,8 @@ snapshots:
 
   '@tauri-apps/api@2.0.0-beta.13': {}
 
+  '@tauri-apps/api@2.0.0-beta.14': {}
+
   '@tauri-apps/cli-darwin-arm64@2.0.0-beta.20':
     optional: true
 
@@ -896,9 +902,9 @@ snapshots:
     dependencies:
       '@tauri-apps/api': 2.0.0-beta.13
 
-  '@tauri-apps/plugin-clipboard-manager@2.1.0-beta.3':
+  '@tauri-apps/plugin-clipboard-manager@2.1.0-beta.4':
     dependencies:
-      '@tauri-apps/api': 2.0.0-beta.13
+      '@tauri-apps/api': 2.0.0-beta.14
 
   '@tauri-apps/plugin-dialog@2.0.0-beta.5':
     dependencies:
