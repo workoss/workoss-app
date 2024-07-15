@@ -9,28 +9,28 @@ importers:
   .:
     dependencies:
       '@tauri-apps/api':
-        specifier: '>=2.0.0-beta.14'
-        version: 2.0.0-beta.14
+        specifier: '>=2.0.0-beta.15'
+        version: 2.0.0-beta.15
       '@tauri-apps/plugin-autostart':
         specifier: ^2.0.0-beta.6
         version: 2.0.0-beta.6
       '@tauri-apps/plugin-cli':
-        specifier: 2.0.0-beta.6
+        specifier: ^2.0.0-beta.6
         version: 2.0.0-beta.6
       '@tauri-apps/plugin-clipboard-manager':
-        specifier: 2.1.0-beta.4
+        specifier: ^2.1.0-beta.4
         version: 2.1.0-beta.4
       '@tauri-apps/plugin-dialog':
-        specifier: 2.0.0-beta.6
+        specifier: ^2.0.0-beta.6
         version: 2.0.0-beta.6
       '@tauri-apps/plugin-fs':
-        specifier: 2.0.0-beta.6
+        specifier: ^2.0.0-beta.6
         version: 2.0.0-beta.6
       '@tauri-apps/plugin-global-shortcut':
-        specifier: 2.0.0-beta.6
+        specifier: ^2.0.0-beta.6
         version: 2.0.0-beta.6
       '@tauri-apps/plugin-http':
-        specifier: 2.0.0-beta.7
+        specifier: ^2.0.0-beta.7
         version: 2.0.0-beta.7
       '@tauri-apps/plugin-shell':
         specifier: ^2.0.0-beta.7
@@ -300,6 +300,10 @@ packages:
 
   '@tauri-apps/api@2.0.0-beta.14':
     resolution: {integrity: sha512-YLYgHqdwWswr4Y70+hRzaLD6kLIUgHhE3shLXNquPiTaQ9+cX3Q2dB0AFfqsua6NXYFNe7LfkmMzaqEzqv3yQg==}
+    engines: {node: '>= 18.18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+
+  '@tauri-apps/api@2.0.0-beta.15':
+    resolution: {integrity: sha512-H9w6iISmR+NvH4XuyCZB4zDN10tf9RFt6i/9JHEjaRhAowdAaJ+oiXq/3kedizNClHMtbTQ5j0oqDVPkZDAI8g==}
     engines: {node: '>= 18.18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
 
   '@tauri-apps/cli-darwin-arm64@2.0.0-beta.20':
@@ -848,6 +852,8 @@ snapshots:
     optional: true
 
   '@tauri-apps/api@2.0.0-beta.14': {}
+
+  '@tauri-apps/api@2.0.0-beta.15': {}
 
   '@tauri-apps/cli-darwin-arm64@2.0.0-beta.20':
     optional: true
