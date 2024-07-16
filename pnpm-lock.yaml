@@ -27,8 +27,8 @@ importers:
         specifier: ^2.0.0-beta.6
         version: 2.0.0-beta.6
       '@tauri-apps/plugin-global-shortcut':
-        specifier: ^2.0.0-beta.6
-        version: 2.0.0-beta.6
+        specifier: ^2.0.0-beta.7
+        version: 2.0.0-beta.7
       '@tauri-apps/plugin-http':
         specifier: ^2.0.0-beta.7
         version: 2.0.0-beta.7
@@ -386,8 +386,8 @@ packages:
   '@tauri-apps/plugin-fs@2.0.0-beta.6':
     resolution: {integrity: sha512-R7M5wggENzJhiA0HwP63AzdF6uzdXRYe0z+ETSue9gvJmqKtqVp+qx9JLsWSfwENHy8RDKmrnuDL18kx/Q2aFA==}
 
-  '@tauri-apps/plugin-global-shortcut@2.0.0-beta.6':
-    resolution: {integrity: sha512-hEW36RnbkjcQYQH88W8PHUSEnbZ8J2L+kAEfSyhb+NWOPzskiE6lDkjh9XurNZkqDR959Lgtm1MAinRCUYnUjA==}
+  '@tauri-apps/plugin-global-shortcut@2.0.0-beta.7':
+    resolution: {integrity: sha512-DKBBygn/QzqpVGD0yoy13t/oP8kV7AqnUOnVZ8X3rw+J2xdBhkPbhVDZDP0uws2Wdrh3jsHqAPHbyVbgVe3y9w==}
 
   '@tauri-apps/plugin-http@2.0.0-beta.7':
     resolution: {integrity: sha512-mxdhcpPPT2oHm0FWe6HS2UbQW2LFTbAv2vExrTYAPJSuXOp2kisgOjazZtswYqpmftpcSZ4dFpmzNlQp188e/g==}
@@ -918,9 +918,9 @@ snapshots:
     dependencies:
       '@tauri-apps/api': 2.0.0-beta.14
 
-  '@tauri-apps/plugin-global-shortcut@2.0.0-beta.6':
+  '@tauri-apps/plugin-global-shortcut@2.0.0-beta.7':
     dependencies:
-      '@tauri-apps/api': 2.0.0-beta.14
+      '@tauri-apps/api': 2.0.0-beta.15
 
   '@tauri-apps/plugin-http@2.0.0-beta.7':
     dependencies:
