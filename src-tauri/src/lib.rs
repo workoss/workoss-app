@@ -22,12 +22,11 @@ pub fn run() {
             MacosLauncher::LaunchAgent,
             Some(vec!["--flag1", "--flag2"]),
         ))
-         .plugin(tauri_plugin_shell::init())
+        .plugin(tauri_plugin_shell::init())
         .setup(|app| {
-
             #[cfg(desktop)]
             {
-                use tauri::Manager;
+                use tauri::Emitter;
                 use tauri_plugin_global_shortcut::{Code, Modifiers, ShortcutState};
 
                 println!("------");
@@ -41,14 +40,13 @@ pub fn run() {
                     }
                     Err(_) => {}
                 }
-                
 
                 app.handle().plugin(
                     tauri_plugin_global_shortcut::Builder::new()
                         .with_shortcuts(["ctrl+d", "alt+n"])?
                         .with_handler(|app, shortcut, event| {
                             println!("==========");
-                            if event.state == ShortcutState::Pressed  {
+                            if event.state == ShortcutState::Pressed {
                                 if shortcut.matches(Modifiers::CONTROL, Code::KeyD) {
                                     let _ = app.emit("shortcut-event", "Ctrl+D triggered");
                                 }
@@ -71,10 +69,8 @@ pub fn run() {
             //disable autostart
             let _ = autostart_manager.disable();
 
-
             Ok(())
         })
-       
         .invoke_handler(tauri::generate_handler![greet])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
