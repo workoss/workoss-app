@@ -27,6 +27,6 @@
     "internal-ip": "^8.0.0",
     "typescript": "^5.5.3",
     "vite": "^7.0.0",
-    "vue-tsc": "^2.0.26"
+    "vue-tsc": "^3.0.1"
   }
 }
